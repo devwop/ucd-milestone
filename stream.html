@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <script>
+    
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }</script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="news.html">News</a>
+          <a href="stream.html" class="active">Stream</a>
+          <a href="tour.html">Tour</a>
+          <a href="band.html">Band</a>
+          <a href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </header>
+    
+    <section class="container-fluid">
+        
+    </section>
+    
+    <footer class="container-fluid">
+        <div class="footer">
+            <h5 class="uppercase general-sub">Follow Us</h5>
+            <ul class="list-inline social-links">
+                <li><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
